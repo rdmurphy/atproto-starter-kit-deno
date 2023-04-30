@@ -17,7 +17,7 @@ The `main.ts` file contains a basic example of how to setup and use the API clie
 ## Prior art
 
 - All credit goes to [@aliceisjustplaying](https://github.com/aliceisjustplaying) for [putting together a starter template for Node.js](https://github.com/aliceisjustplaying/atproto-starter-kit)! This is effectively a port of that to Deno.
-- A shoutout to [@emilyliu7321]([url](https://github.com/emilyliu7321)) as well for [including a tutorial with their Bluesky bot](https://github.com/emilyliu7321/bluesky-emoji-bot/blob/main/TUTORIAL.md)!
+- A shoutout to [@emilyliu7321](https://github.com/emilyliu7321) as well for [including a tutorial with their Bluesky bot](https://github.com/emilyliu7321/bluesky-emoji-bot/blob/main/TUTORIAL.md)!
 
 ## License
 
