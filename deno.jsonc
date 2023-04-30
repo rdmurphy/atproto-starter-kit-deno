@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "run": "deno run --allow-net=bsky.social --allow-read=.env,.env.example --allow-env=BLUESKY_IDENTIFIER,BLUESKY_PASSWORD main.ts"
+  },
+  "imports": {
+    "@atproto/api": "npm:@atproto/api@0.2.11",
+    "std/": "https://deno.land/std@0.185.0/"
+  }
+}
