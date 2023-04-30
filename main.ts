@@ -2,7 +2,7 @@
 import { load } from "std/dotenv/mod.ts";
 // import Bluesky agent
 import api from "@atproto/api";
-const { BskyAgent } = api; // RIP need a module export
+const { BskyAgent } = api; // RIP need module export
 
 // load .env file
 const env = await load({
@@ -25,7 +25,7 @@ await agent.login({
   password: PASSWORD,
 });
 
-// // it's you!
+// it's you!
 const me = await agent.getProfile({ actor: IDENTIFIER });
 console.log(me.data);
 
